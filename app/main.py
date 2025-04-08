@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from app.call_handler import process_call
+from call_handler import process_call
+
 
 app = Flask(__name__)
 
